@@ -1,0 +1,64 @@
+package com.adactinhook.step;
+
+import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+
+import com.BaseClass.UtilityFiles1;
+import com.PageObjectManager.Adactin_Page_Object_Manager;
+import com.RunnerClass.Runner_Class_With_Hooks;
+
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class Adactin_Step_Hook2 extends UtilityFiles1 {
+	public static WebDriver driver = Runner_Class_With_Hooks.driver;
+	public static Adactin_Page_Object_Manager objManager = new Adactin_Page_Object_Manager(driver);
+
+	@When("user Enter The First Name{string}")
+	public void user_enter_the_first_name(String name) {
+		sendKeys(objManager.getBook().getName(), name);
+	}
+
+	@When("user Enter The Last Name{string}")
+	public void user_enter_the_last_name(String name) {
+		sendKeys(objManager.getBook().getLastName(), name);
+	}
+
+	@When("user Enter The Billng Address{string}")
+	public void user_enter_the_billng_address(String address) {
+		sendKeys(objManager.getBook().getAddress(), address);
+	}
+
+	@When("user Enter The Credit Card Number{string}")
+	public void user_enter_the_credit_card_number(String number) {
+		sendKeys(objManager.getBook().getCardNumber(), number);
+	}
+
+	@When("user Select The Credit Card Type")
+	public void user_select_the_credit_card_type() {
+		select_By_Index(objManager.getBook().getCardType(), 1);
+	}
+
+	@When("user Select The Expiry Month")
+	public void user_select_the_expiry_month() {
+		select_By_Index(objManager.getBook().getExpDate(), 1);
+	}
+
+	@When("user Select The Expiry Year")
+	public void user_select_the_expiry_year() {
+		select_By_Value(objManager.getBook().getExpYear(), "2022");
+	}
+
+	@When("user Select The Cvv Number")
+	public void user_select_the_cvv_number() {
+		sendKeys(objManager.getBook().getCvv(), "122");
+	}
+
+	@Then("user Click The Book Button And Its Navigate To {string}")
+	public void user_click_book_button_and_its_navigate_to(String expected) throws InterruptedException {
+		click(objManager.getBook().getBookNow());
+		Thread.sleep(10000);
+		Assert.assertEquals(expected, driver.getCurrentUrl());
+	}
+
+}

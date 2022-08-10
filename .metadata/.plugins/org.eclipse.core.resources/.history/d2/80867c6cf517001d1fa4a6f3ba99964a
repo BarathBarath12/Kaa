@@ -1,0 +1,12 @@
+Feature: Hotel Booking in Adactin Application
+@Ad1
+Scenario: Search Hotel
+When user Select The Location In Location Filed
+And user Select The Hotels In Hotels Filed
+And user Select The Room Type In Room Type Filed
+And user Select The Number Of Rooms In Number Of Rooms Filed
+And user Enter The Check In Date In Check In Date Filed "09/11/2022"
+And user Enter The Check Out Date In Check Out Date Filed "14/11/2022"
+And user Select The Adults Per Room In Adult Per Room Filed
+And user Select The Child Per Room In Child Per Room Filed
+Then user Click The Search Button And Its Navigate To "https://adactinhotelapp.com/SelectHotel.php"

@@ -1,0 +1,7 @@
+Feature: Purchase Dress In Automation Practice
+Scenario: Login Page
+Given user Launch The Application
+When user Click The Signin Button and It Navigate To Login Page
+And user Enter The Email Address
+And User Enter The Password
+Then user Click The Signin Button and Its Navigate To "http://automationpractice.com/index.php?controller=my-account"

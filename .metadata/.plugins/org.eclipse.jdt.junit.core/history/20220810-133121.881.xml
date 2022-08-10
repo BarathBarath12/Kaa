@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner_Class_With_Hooks" project="Cucumber" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.RunnerClass.Runner_Class_With_Hooks" time="55.143">
+    <testsuite name="Hotel Booking Adactin Application" time="28.167">
+      <testcase name="Book A Hotel" classname="Hotel Booking Adactin Application" time="28.167"/>
+    </testsuite>
+    <testsuite name="Hotel Booking The Adactin Application" time="26.976">
+      <testcase name="Hotel Booking" classname="Hotel Booking The Adactin Application" time="26.976"/>
+    </testsuite>
+  </testsuite>
+</testrun>

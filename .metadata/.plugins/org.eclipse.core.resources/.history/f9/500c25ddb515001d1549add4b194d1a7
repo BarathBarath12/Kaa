@@ -1,0 +1,104 @@
+package com.StepDefinition;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class Automation_Setp_Def {
+	@Given("user Launch The Application")
+	public void user_launch_the_application() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user Click The Signin Button and It Navigate To Login Page")
+	public void user_click_the_signin_button_and_it_navigate_to_login_page() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user Enter The Email Address")
+	public void user_enter_the_email_address() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@When("User Enter The Password")
+	public void user_enter_the_password() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("user Click The Signin Button and Its Navigate To {string}")
+	public void user_click_the_signin_button_and_its_navigate_to(String string) {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user Click The Dresses Along With Casual Dresses And Its Navigate To Casual Dresses Product")
+	public void user_click_the_dresses_along_with_casual_dresses_and_its_navigate_to_casual_dresses_product() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user Select The Size And Color And Compositions And Stylez And Properties And Availability And Manufaturer And Condition")
+	public void user_select_the_size_and_color_and_compositions_and_stylez_and_properties_and_availability_and_manufaturer_and_condition() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user Click The Quick View Images And Its Navigate To Add To Card")
+	public void user_click_the_quick_view_images_and_its_navigate_to_add_to_card() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user Click The Add To Card Button And Its Navigate To Proceed To checkout")
+	public void user_click_the_add_to_card_button_and_its_navigate_to_proceed_to_checkout() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user Click The Proceed To Checkout Button and Its Navigate To Summary Page")
+	public void user_click_the_proceed_to_checkout_button_and_its_navigate_to_summary_page() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user Confirm The Summmary Page Click Then Click Proceed To Checkout Button and Its Navigate to Address Details")
+	public void user_confirm_the_summmary_page_click_then_click_proceed_to_checkout_button_and_its_navigate_to_address_details() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user Confirm The Address Then Click The Proceed to Checkout Button andd Its Navigate Shipping Details")
+	public void user_confirm_the_address_then_click_the_proceed_to_checkout_button_andd_its_navigate_shipping_details() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user Click The Terms Of Service")
+	public void user_click_the_terms_of_service() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user Click The Proceed To Checkout In Shipping Details and Its Navigate To Payment details")
+	public void user_click_the_proceed_to_checkout_in_shipping_details_and_its_navigate_to_payment_details() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user Click The Payment Option In Payment Details")
+	public void user_click_the_payment_option_in_payment_details() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("user Click The Confirm My Order")
+	public void user_click_the_confirm_my_order() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+}

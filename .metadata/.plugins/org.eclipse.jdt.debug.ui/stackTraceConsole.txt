@@ -1,0 +1,25 @@
+io.cucumber.junit.UndefinedStepException: The step 'user Click The Dresses Along With Blouses And Its Navigate To Blouses Product' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user Click The Dresses Along With Blouses And Its Navigate To Blouses Product")
+public void user_click_the_dresses_along_with_blouses_and_its_navigate_to_blouses_product() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user Enter The Quantity And Color And Theen Click The Add To Card Button And Its Navigate To Proceed To CheckOut Product Page {string}")
+public void user_enter_the_quantity_and_color_and_theen_click_the_add_to_card_button_and_its_navigate_to_proceed_to_check_out_product_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user Click The Proceed To Checkout Button and Its Navigate To Summary Page")
+public void user_click_the_proceed_to_checkout_button_and_its_navigate_to_summary_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user Confirm The Address And Then Click The Proceed To Checkout Button And Its Navigate Shipping Details")
+public void user_confirm_the_address_and_then_click_the_proceed_to_checkout_button_and_its_navigate_shipping_details() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

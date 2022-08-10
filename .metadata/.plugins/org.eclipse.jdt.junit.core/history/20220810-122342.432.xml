@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner_Class_With_Hooks" project="Cucumber" tests="2" started="2" failures="0" errors="2" ignored="0">
+  <testsuite name="com.RunnerClass.Runner_Class_With_Hooks" time="0.444">
+    <testsuite name="Hotel Booking Adactin Application" time="0.421">
+      <testcase name="Book A Hotel" classname="Hotel Booking Adactin Application" time="0.421">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'user Enter The First Name In First Name Filed "Barath"' and 8 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user Enter The First Name In First Name Filed {string}")
+public void user_enter_the_first_name_in_first_name_filed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user Enter The Last Name In Last Name Filed {string}")
+public void user_enter_the_last_name_in_last_name_filed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user Enter The Billng Address In Billing Address Filed {string}")
+public void user_enter_the_billng_address_in_billing_address_filed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user Enter The Credit Card Number In Credit Card Number Filed {string}")
+public void user_enter_the_credit_card_number_in_credit_card_number_filed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user Select The Credit Card Type In Credit Card Type Filed")
+public void user_select_the_credit_card_type_in_credit_card_type_filed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user Select The Expiry Month In Expiry Month Filed")
+public void user_select_the_expiry_month_in_expiry_month_filed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user Select The Expiry Year In Expiry Year Filed")
+public void user_select_the_expiry_year_in_expiry_year_filed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user Select The Cvv Number In Cvv Number Filed")
+public void user_select_the_cvv_number_in_cvv_number_filed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user Click The Book Button And Its Navigate To {string}")
+public void user_click_the_book_button_and_its_navigate_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="Hotel Booking The Adactin Application" time="0.017">
+      <testcase name="Hotel Booking" classname="Hotel Booking The Adactin Application" time="0.017">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'user Enter The First Name "Barath"' and 8 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user Enter The First Name {string}")
+public void user_enter_the_first_name(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user Enter The Last Name {string}")
+public void user_enter_the_last_name(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user Enter The Billng Address {string}")
+public void user_enter_the_billng_address(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user Enter The Credit Card Number {string}")
+public void user_enter_the_credit_card_number(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user Select The Credit Card Type")
+public void user_select_the_credit_card_type() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user Select The Expiry Month")
+public void user_select_the_expiry_month() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user Select The Expiry Year")
+public void user_select_the_expiry_year() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user Select The Cvv Number")
+public void user_select_the_cvv_number() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user Click Book Button And Its Navigate To {string}")
+public void user_click_book_button_and_its_navigate_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

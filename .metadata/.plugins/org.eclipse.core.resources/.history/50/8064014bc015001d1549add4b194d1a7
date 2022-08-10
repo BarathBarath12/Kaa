@@ -1,0 +1,28 @@
+package com.RunnerClass;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.runner.RunWith;
+import org.openqa.selenium.WebDriver;
+
+import com.BaseClass.UtilityFiles1;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+@RunWith(Cucumber.class)
+@CucumberOptions(features = "/Cucumber/Feature/Automation.feature", glue = "/com/StepDefinition/Automation_Setp_Def.java")
+public class Automation_RunnerClass {
+	public static WebDriver driver;
+
+@BeforeClass
+private void browserLaunch() {
+	// TODO Auto-generated method stub
+driver = UtilityFiles1.getBrowser("chrome");
+}
+
+	@AfterClass
+	private void close() {
+		// TODO Auto-generated method stub
+		driver = UtilityFiles1.close();
+	}
+}

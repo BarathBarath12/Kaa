@@ -1,0 +1,13 @@
+package com.RunnerClass;
+
+import org.testng.annotations.DataProvider;
+
+public class Data_Provider_1 {
+	@DataProvider
+	public void test_Data() {
+		
+
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.StepDefinition;
+
+import org.openqa.selenium.WebDriver;
+
+import com.BaseClass.UtilityFiles1;
+import com.PageObjectManager.Automation_Page_Object_Manager;
+import com.RunnerClass.Automation_RunnerClass;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class Automation_Setp_Def extends UtilityFiles1 {
+	public static WebDriver driver = Automation_RunnerClass.driver;
+	public static Automation_Page_Object_Manager objManager = new Automation_Page_Object_Manager(driver);
+	
+}

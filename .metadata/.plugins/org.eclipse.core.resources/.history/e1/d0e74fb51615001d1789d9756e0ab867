@@ -1,0 +1,21 @@
+Feature: Purchase Dress In Automation Practice
+Scenario: Login Page
+Given user Launch The Application
+When user Click The Signin Button and It Navigate To Login Page
+And user Enter The Email Address
+And User Enter The Password
+Then user Click The Signin Button and Its Navigate To "http://automationpractice.com/index.php?controller=my-account"
+
+Scenario: Casual Dresses Purchase 
+When user Click The Dresses Along With Casual Dresses And Its Navigate To Casual Dresses Product
+And user Select The Size And Color And Compositions And Stylez And Properties And Availability And Manufaturer And Condition
+And user Click The Quick View Images And Its Navigate To Add To Card
+And user Click The Add To Card Button And Its Navigate To Proceed To checkout
+And user Click The Proceed To Checkout Button and Its Navigate To Summary Page
+And user Confirm The Summmary Page Click Then Click Proceed To Checkout Button and Its Navigate to Address Details
+And user Confirm The Address Then Click The Proceed to Checkout Button andd Its Navigate Shipping Details 
+And user Click The Terms Of Service
+And user Click The Proceed To Checkout In Shipping Details and Its Navigate To Payment details
+And user Click The Payment Option In Payment Details
+Then user Click The Confirm My Order
+

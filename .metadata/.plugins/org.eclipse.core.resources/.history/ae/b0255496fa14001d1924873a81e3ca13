@@ -1,0 +1,10 @@
+package com.RunnerClass;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+
+public class Auto_Runner {
+   @unWith(Cucumber.class);
+
+}

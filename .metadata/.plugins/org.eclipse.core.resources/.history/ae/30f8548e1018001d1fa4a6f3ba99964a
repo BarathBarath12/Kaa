@@ -1,0 +1,21 @@
+package com.adactinhook.step;
+
+import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+
+import com.BaseClass.UtilityFiles1;
+import com.PageObjectManager.Adactin_Page_Object_Manager;
+import com.RunnerClass.Runner_Class_With_Hooks;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+
+public class Hooks_Hotel2 extends UtilityFiles1{
+	public static WebDriver driver = Runner_Class_With_Hooks.driver;
+	public static Adactin_Page_Object_Manager objManager = new Adactin_Page_Object_Manager(driver);
+
+	
+	
+
+	
+}

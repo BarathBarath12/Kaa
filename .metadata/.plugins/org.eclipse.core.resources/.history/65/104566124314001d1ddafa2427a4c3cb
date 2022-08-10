@@ -1,0 +1,7 @@
+Feature: Hotel Booking in Adactin Application
+Scenario: Login Page
+Given user Launch The Application
+When user Enter The Username In Username Filed
+And user Enter The Password In Password Filed
+Then user Click The Login Button And Its Navigate to "https://adactinhotelapp.com/SearchHotel.php"
+ 

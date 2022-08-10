@@ -1,0 +1,30 @@
+package com.RunnerClass;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.runner.RunWith;
+import org.openqa.selenium.WebDriver;
+
+import com.BaseClass.UtilityFiles1;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = ".\\.feature", 
+glue = "\\Automation_Setp_Def.java")
+public class Adc_Runner {
+	public static WebDriver driver;
+
+	@BeforeClass
+	public static void set_Up() throws InterruptedException {
+		driver = UtilityFiles1.getBrowser("chrome");
+		Thread.sleep(1000);
+	}
+
+	@AfterClass
+	public static void tear_Up() {
+		driver = UtilityFiles1.close();
+	}
+}

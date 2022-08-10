@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+<stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Mevan"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+<mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
+<mapEntry key="Ignore.Methoad.Expected_Exception" value="password"/>
+<mapEntry key="com.RunnerClass.Adactin_Book_A_Hotel" value="getLastName;getCardType;getAddress;Adactin_Book_A_Hotel;getExpYear;getExpDate;getName;getCvv;getBookNow;getCardNumber"/>
+<mapEntry key="com.RunnerClass.Adactin_Booking_Confirmation" value="getMyItinerary;Adactin_Booking_Confirmation"/>
+<mapEntry key="com.RunnerClass.Adactin_Login_Page" value="Adactin_Login_Page;getLogin;getUsername;getPassword"/>
+<mapEntry key="com.RunnerClass.Adactin_Logout" value="getLogout;Adactin_Logout"/>
+<mapEntry key="com.RunnerClass.Adactin_Page_Object_Manager" value="getConfirm;Adactin_Page_Object_Manager;getSelect;getBook;getSearch;getPage;getLogout"/>
+<mapEntry key="com.RunnerClass.Adactin_Select_Hotel" value="Adactin_Select_Hotel;getRadioButton;getContinues"/>
+<mapEntry key="com.RunnerClass.Adactin_Serach_Hotel" value="getRoom;getCheck_Out_Date;getChild_Room;Adactin_Serach_Hotel;getLocation;getAdult_Room;getSearch;getNumber_Of_Rooms;getCheck_In_Date;getHotels"/>
+<mapEntry key="com.RunnerClass.AddressPage" value="AddressPage;getAddress"/>
+<mapEntry key="com.RunnerClass.Always_Run" value="eee;logout;orange"/>
+<mapEntry key="com.RunnerClass.App" value="main"/>
+<mapEntry key="com.RunnerClass.AppTest" value="AppTest;testApp;suite"/>
+<mapEntry key="com.RunnerClass.Automation_Page_Object_Manager" value="Automation_Page_Object_Manager;getL1;getD;getL2;getE;getF;getG;getA;getB;getC;getL;getH;getJ;getK"/>
+<mapEntry key="com.RunnerClass.BlousePage" value="getCondition;getAvailability;getProperties;getQuickView;getStyle;getImg;getSize;getManufactor;BlousePage;getCompositions"/>
+<mapEntry key="com.RunnerClass.Confrim_Order" value="getConfirm;Confrim_Order"/>
+<mapEntry key="com.RunnerClass.Cross_Browser_Testing" value="adactin;facebook"/>
+<mapEntry key="com.RunnerClass.Data_Driven_Framework" value="main;parcticular_Cell;write_Data;all_Cell;particular_Coloumn;particular_Row"/>
+<mapEntry key="com.RunnerClass.Data_Provider" value="test_Data;Credential"/>
+<mapEntry key="com.RunnerClass.Data_Provider_1" value="test_Data1;test_Data"/>
+<mapEntry key="com.RunnerClass.Data_Provider_2" value="Credential"/>
+<mapEntry key="com.RunnerClass.Depends_On_Methods" value="orange;eee;logout"/>
+<mapEntry key="com.RunnerClass.Description" value="logout;sslc;password"/>
+<mapEntry key="com.RunnerClass.Enabled_Vs_Always_Run" value="orange"/>
+<mapEntry key="com.RunnerClass.Facebook_Home_Page" value="getPassword;Facebook_Home_Page;getUsername"/>
+<mapEntry key="com.RunnerClass.Facebook_Page_Object_Manager" value="getPage;Facebook_Page_Object_Manager"/>
+<mapEntry key="com.RunnerClass.FramePage" value="getColor;getQuantity;FramePage;getAddToCard"/>
+<mapEntry key="com.RunnerClass.Groups_Demo" value="hsslc;sslc;studio;password;visa;logout"/>
+<mapEntry key="com.RunnerClass.Hard_Assert_Demo" value="credentials;credentials2;credentials1"/>
+<mapEntry key="com.RunnerClass.HomePage" value="HomePage;getWomen;getBlouse"/>
+<mapEntry key="com.RunnerClass.I_Retry_I_Annotation" value="Credential;faceBook"/>
+<mapEntry key="com.RunnerClass.Ignore_Demo" value="logout;password;login;username"/>
+<mapEntry key="com.RunnerClass.Invocation_Count" value="hotel;login;logout;room;username;password"/>
+<mapEntry key="com.RunnerClass.Junit_Demo" value="login;username;password;logout"/>
+<mapEntry key="com.RunnerClass.Logger_Demo" value="main"/>
+<mapEntry key="com.RunnerClass.Multi_Dimen_Array" value="main"/>
+<mapEntry key="com.RunnerClass.MyAccount" value="MyAccount;getOrderHistory"/>
+<mapEntry key="com.RunnerClass.Parallel_Testing" value="adactin;Facebook"/>
+<mapEntry key="com.RunnerClass.PaymentPage" value="getPayment;PaymentPage"/>
+<mapEntry key="com.RunnerClass.PojoA" value="setA;getA"/>
+<mapEntry key="com.RunnerClass.PojoB" value="main"/>
+<mapEntry key="com.RunnerClass.Priority_Attribute" value="username;password;logout;login"/>
+<mapEntry key="com.RunnerClass.Proceed_To_Checkout" value="Proceed_To_Checkout;getCheckout"/>
+<mapEntry key="com.RunnerClass.Rerun_Class" value="retry"/>
+<mapEntry key="com.RunnerClass.Return_HomePage" value="Return_HomePage;getReturnHome"/>
+<mapEntry key="com.RunnerClass.RunnerClass" value="main"/>
+<mapEntry key="com.RunnerClass.RunnerClass1" value="address;signin;frameHandle;payment;back_To_Home;screenShot;order_History;Summary;HomePage;confirmPay;proceed;Sign_In;blouseCollection"/>
+<mapEntry key="com.RunnerClass.RunnerClass2" value="Adactin;radioButton;search_Hotels;book"/>
+<mapEntry key="com.RunnerClass.ShippingPage" value="getProceed_To_Checkout3;getTerms_Of_Service;ShippingPage"/>
+<mapEntry key="com.RunnerClass.SigninPage" value="getPassword;SigninPage;getSignin;getEmail"/>
+<mapEntry key="com.RunnerClass.Single_Parameter" value="Adactin"/>
+<mapEntry key="com.RunnerClass.Soft_Assert" value="credentials;credentials1"/>
+<mapEntry key="com.RunnerClass.SummaryPage" value="getProceed_Checkout1;SummaryPage"/>
+<mapEntry key="com.RunnerClass.TestNg_Demo" value="login;username;close_Browser;logout_Homepage;return_Home_Page;password;logout;home_Page;url;chrome"/>
+<mapEntry key="com.RunnerClass.TimeOut" value="usename"/>
+<mapEntry key="com.RunnerClass.Transformer" value="transform"/>
+<mapEntry key="com.RunnerClass.UtilityFiles" value="cvv;expdate;cardtype;address;click;clear1;rooms;login;openUrl;adultroom;click3;outdate;click1;hotels;userdata;indate;fstName;userpassword;cardnumber;numberofrooms;lstName;expyear;childroom;clear;click4;location;create_Browser;click2"/>
+<mapEntry key="com.RunnerClass.UtilityFiles1" value="isDisplay;get_First_Select_Option;isEnable;window_Handle;clear;get_Tag_Name;close;navigate_Refersh;getAllOptions;frame1;get_All_Selected_Options;particular_Cell;getCurrentUrl;click1;sendKeys;select_By_Text;explicit_Wait_Visibility;navigate_Back;quit;navigate_Forward;explicitWaitAlert;navigate_To;javaSript;ismultiple;explicit_Wait_Invisibility;actions1;frame;radioButton;getBrowser;isSelect;select_By_Index;m1;robot;select_By_Value;click;actions;checkBox;getText;getTitile;getAttribute;getUrl"/>
+<mapEntry key="com.RunnerClass.ViewAccount" value="ViewAccount;getAccount"/>
+</mapAttribute>
+<listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+<listEntry value="com.RunnerClass.Transformer"/>
+<listEntry value="com.RunnerClass.Description"/>
+<listEntry value="com.RunnerClass.Adactin_Page_Object_Manager"/>
+<listEntry value="com.RunnerClass.Data_Driven_Framework"/>
+<listEntry value="com.RunnerClass.Single_Parameter"/>
+<listEntry value="com.RunnerClass.Adactin_Serach_Hotel"/>
+<listEntry value="com.RunnerClass.Data_Provider"/>
+<listEntry value="com.RunnerClass.AddressPage"/>
+<listEntry value="com.RunnerClass.HomePage"/>
+<listEntry value="com.RunnerClass.UtilityFiles"/>
+<listEntry value="com.RunnerClass.RunnerClass"/>
+<listEntry value="com.RunnerClass.Adactin_Login_Page"/>
+<listEntry value="com.RunnerClass.App"/>
+<listEntry value="com.RunnerClass.TestNg_Demo"/>
+<listEntry value="com.RunnerClass.Proceed_To_Checkout"/>
+<listEntry value="com.RunnerClass.Confrim_Order"/>
+<listEntry value="com.RunnerClass.Rerun_Class"/>
+<listEntry value="com.RunnerClass.Ignore_Demo"/>
+<listEntry value="Ignore.Methoad.Expected_Exception"/>
+<listEntry value="com.RunnerClass.Enabled_Vs_Always_Run"/>
+<listEntry value="com.RunnerClass.Soft_Assert"/>
+<listEntry value="com.RunnerClass.SigninPage"/>
+<listEntry value="com.RunnerClass.Adactin_Logout"/>
+<listEntry value="com.RunnerClass.Hard_Assert_Demo"/>
+<listEntry value="com.RunnerClass.Adactin_Booking_Confirmation"/>
+<listEntry value="com.RunnerClass.Always_Run"/>
+<listEntry value="com.RunnerClass.PaymentPage"/>
+<listEntry value="com.RunnerClass.ViewAccount"/>
+<listEntry value="com.RunnerClass.Facebook_Page_Object_Manager"/>
+<listEntry value="com.RunnerClass.RunnerClass1"/>
+<listEntry value="com.RunnerClass.RunnerClass2"/>
+<listEntry value="com.RunnerClass.FramePage"/>
+<listEntry value="com.RunnerClass.Priority_Attribute"/>
+<listEntry value="com.RunnerClass.Junit_Demo"/>
+<listEntry value="com.RunnerClass.Return_HomePage"/>
+<listEntry value="com.RunnerClass.Depends_On_Methods"/>
+<listEntry value="com.RunnerClass.TimeOut"/>
+<listEntry value="com.RunnerClass.SummaryPage"/>
+<listEntry value="com.RunnerClass.Multi_Dimen_Array"/>
+<listEntry value="com.RunnerClass.ShippingPage"/>
+<listEntry value="com.RunnerClass.I_Retry_I_Annotation"/>
+<listEntry value="com.RunnerClass.Adactin_Select_Hotel"/>
+<listEntry value="com.RunnerClass.Logger_Demo"/>
+<listEntry value="com.RunnerClass.Cross_Browser_Testing"/>
+<listEntry value="com.RunnerClass.BlousePage"/>
+<listEntry value="com.RunnerClass.Parallel_Testing"/>
+<listEntry value="com.RunnerClass.Data_Provider_2"/>
+<listEntry value="com.RunnerClass.Data_Provider_1"/>
+<listEntry value="com.RunnerClass.MyAccount"/>
+<listEntry value="com.RunnerClass.Groups_Demo"/>
+<listEntry value="com.RunnerClass.Facebook_Home_Page"/>
+<listEntry value="com.RunnerClass.Adactin_Book_A_Hotel"/>
+<listEntry value="com.RunnerClass.PojoA"/>
+<listEntry value="com.RunnerClass.PojoB"/>
+<listEntry value="com.RunnerClass.AppTest"/>
+<listEntry value="com.RunnerClass.Invocation_Count"/>
+<listEntry value="com.RunnerClass.Automation_Page_Object_Manager"/>
+<listEntry value="com.RunnerClass.UtilityFiles1"/>
+</listAttribute>
+<listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+<listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+<stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+<intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

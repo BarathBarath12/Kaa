@@ -1,0 +1,21 @@
+package com.RunnerClass;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.runner.RunWith;
+import org.openqa.selenium.WebDriver;
+
+import com.BaseClass.UtilityFiles1;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = ".\\Feature", 
+glue = "com.StepDefinition")
+public class Adc_Runner {
+	public static WebDriver driver = UtilityFiles1.getBrowser("chrome");
+
+	
+}

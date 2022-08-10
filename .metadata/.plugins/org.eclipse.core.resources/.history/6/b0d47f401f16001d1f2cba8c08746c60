@@ -1,0 +1,14 @@
+package com.Automation.Pom;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class Signout_Page {
+@FindBy(xpath = "//a[@class='logout']")
+private WebElement signout;
+
+public WebElement getSignout() {
+	return signout;
+}
+
+}

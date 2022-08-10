@@ -1,0 +1,110 @@
+package com.Cucumber;
+
+import java.io.IOException;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import com.Automation.Pom.ShippingPage;
+import com.BaseClass.UtilityFiles1;
+import com.PageObjectManager.Automation_Page_Object_Manager;
+
+public class RunnerClass1 extends UtilityFiles1 {
+	public static WebDriver driver = UtilityFiles1.getBrowser("Chrome");
+	public static Automation_Page_Object_Manager obj_Manager = new Automation_Page_Object_Manager(driver);
+
+	@Test
+	private void HomePage() throws InterruptedException {
+		getUrl("http://automationpractice.com/index.php");
+		actions(obj_Manager.getHome().getWomen());
+		actions(obj_Manager.getHome().getBlouse());
+		click(obj_Manager.getHome().getBlouse());
+	}
+
+	@Test
+	private void blouseCollection() throws InterruptedException {
+		click(obj_Manager.getBlouse().getSize());
+		click(obj_Manager.getBlouse().getCompositions());
+		click(obj_Manager.getBlouse().getStyle());
+		click(obj_Manager.getBlouse().getProperties());
+		click(obj_Manager.getBlouse().getAvailability());
+		click(obj_Manager.getBlouse().getManufactor());
+		click(obj_Manager.getBlouse().getCondition());
+		actions(obj_Manager.getBlouse().getImg());
+		actions(obj_Manager.getBlouse().getQuickView());
+		click(obj_Manager.getBlouse().getQuickView());
+	}
+
+	@Test(priority = 0)
+	private void frameHandle() throws IOException, InterruptedException {
+		frame(0);
+		clear(obj_Manager.getFrame().getQuantity());
+		String particular_Cell = particular_Cell("C:\\Users\\barat\\OneDrive\\Documents\\DataDriven.xlsx", 0, 2, 0);
+		sendKeys(obj_Manager.getFrame().getQuantity(), particular_Cell);
+		click(obj_Manager.getFrame().getColor());
+		click(obj_Manager.getFrame().getAddToCard());
+	}
+
+	@Test(priority = 1)
+	private void proceed() {
+		frame1();
+		click(obj_Manager.getCheckout().getCheckout());
+	}
+
+	@Test(priority = 2)
+	private void Summary() {
+
+		click(obj_Manager.getSummary().getProceed_Checkout1());
+	}
+
+	@Test(priority = 3)
+	private void signin() throws IOException {
+
+		String particular_Cell2 = particular_Cell("C:\\Users\\barat\\OneDrive\\Documents\\DataDriven.xlsx", 0, 1, 1);
+		sendKeys(obj_Manager.getSignin().getEmail(), particular_Cell2);
+		String particular_Cell3 = particular_Cell("C:\\Users\\barat\\OneDrive\\Documents\\DataDriven.xlsx", 0, 1, 2);
+		sendKeys(obj_Manager.getSignin().getPassword(), particular_Cell3);
+		click(obj_Manager.getSignin().getSignin());
+	}
+
+	@Test(priority = 4)
+	private void address() {
+		click(obj_Manager.getAddress().getAddress());
+	}
+
+	@Test
+	private void Shipping() {
+		// TODO Auto-generated method stub
+		click(obj_Manager.getShipping().getTerms_Of_Service());
+		click(obj_Manager.getShipping().getProceed_To_Checkout3());
+	}
+
+	@Test(priority = 5)
+	private void payment() {
+		click(obj_Manager.getPayment().getPayment());
+	}
+
+	@Test(priority = 6)
+	private void confirmPay() {
+		click(obj_Manager.getConfirmOrder().getConfirm());
+	}
+
+	@Test(priority = 7)
+	private void back_To_Home() throws InterruptedException {
+		click1(obj_Manager.getReturnHome().getReturnHome());
+	}
+
+	@Test(priority = 8)
+	private void Sign_In() throws InterruptedException {
+		click1(obj_Manager.getAccountView().getAccount());
+	}
+
+	@Test(priority = 9)
+	private void order_History() throws InterruptedException {
+		click1(obj_Manager.getViewOrder().getOrderHistory());
+	}
+
+	@Test(priority = 10)
+	private void screenShot() throws IOException {
+		m1("C:\\Users\\barat\\eclipse-workspace-3\\Mevan\\Snap\\sanp.png");
+	}
+}

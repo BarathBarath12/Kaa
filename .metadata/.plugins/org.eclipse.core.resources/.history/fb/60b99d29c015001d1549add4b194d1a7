@@ -1,0 +1,7 @@
+package com.RunnerClass;
+
+import org.openqa.selenium.WebDriver;
+
+public class Automation_RunnerClass{
+public static WebDriver driver;	
+}
